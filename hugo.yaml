@@ -51,6 +51,7 @@ languages:
       description: A Blog site 
   zh:
     languageName: 中文(简体)
+    contentDir: content/zh
     title: 云野的博客
     params:
       description: 云野的博客
