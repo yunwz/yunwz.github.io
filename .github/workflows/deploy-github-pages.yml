@@ -31,7 +31,7 @@ env:
   REPO_OWNER: ${{ github.repository_owner }}
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -55,10 +55,7 @@ jobs:
 
       - run: npm ci
       - run: hugo --baseURL https://${REPO_OWNER}.github.io/ --minify
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: ${{ github.ref == 'refs/heads/main' }} # <-- specify same branch as above here
