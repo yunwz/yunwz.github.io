@@ -5,7 +5,7 @@ title: 云野的博客
 
 # Language settings
 contentDir: content/en
-defaultContentLanguage: en
+defaultContentLanguage: zh
 defaultContentLanguageInSubdir: false
 # Useful when translating.
 enableMissingTranslationPlaceholders: true
