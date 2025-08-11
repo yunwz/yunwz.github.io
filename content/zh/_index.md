@@ -2,14 +2,17 @@
 title: Goldydocs
 ---
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+{{< blocks/cover title="欢迎来到我的博客" image_anchor="top" height="full" >}}
+<a class="btn btn-lg btn-primary me-3 mb-4" href="https://github.com/yunwz">
+  GitHub主页 <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+</a>
+<!-- <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-</a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
+</a> -->
+<!-- <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
   Download <i class="fab fa-github ms-2 "></i>
-</a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+</a> -->
+<p class="lead mt-5">一个记录、分享云原生、微服务、Kubernetes等技术知识的博客站点。</p>
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
