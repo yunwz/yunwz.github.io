@@ -226,3 +226,8 @@ module:
       disable: false
 
 enableEmoji: true
+
+# https://gohugo.io/host-and-deploy/host-on-github-pages/
+caches:
+  images:
+    dir: :cacheDir/images
